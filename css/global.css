@@ -8,8 +8,16 @@
 body{
     overflow-x: hidden;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+
 .container {
+    width: 100%;
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0 20px;
     font-family: var(--Poppins);
 }
